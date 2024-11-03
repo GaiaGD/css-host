@@ -88,6 +88,10 @@
     }
   }
 
+  .min-vh-sm-60 {
+    min-height: 60vh;
+  }
+
 .vh-sm-80 {
     @media (max-width: 768px) {
         height: 80vh;
