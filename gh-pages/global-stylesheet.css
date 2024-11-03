@@ -1,0 +1,240 @@
+/* Define CSS Variables */
+:root {
+
+    /* OT Colors */
+    --OT-primary-100: #E5F5FA;
+    --OT-primary-200: #CCE8F5;
+    --OT-primary-300: #B2E1F0;
+    --OT-primary-400: #33B1D7;
+    --OT-primary-500: #1AA7D2;
+    --OT-primary-600: #009DCD;
+
+    --OT-neutral-100: #FFFFFF;
+    --OT-neutral-200: #FCFEFF;
+    --OT-neutral-300: #F5F9FA;
+    --OT-neutral-400: #E1E4E5;
+    --OT-neutral-500: #787E80;
+    --OT-neutral-600: #484B4D;
+    --OT-neutral-700: #303233;
+    --OT-neutral-800: #1D1D1D;
+    --OT-neutral-900: #000000;
+
+    /* ZD Colors */
+    --ZD-primary-100: #FDF4E5;
+    --ZD-primary-200: #FCEACC;
+    --ZD-primary-300: #FAD499;
+    --ZD-primary-400: #F5A934;
+    --ZD-primary-500: #F49F1B;
+    --ZD-primary-600: #F29401;
+
+    /* JCA Colors */
+    --JCA-primary-100: #FCE8E8;
+    --JCA-primary-200: #F9D1D3;
+    --JCA-primary-300: #F3A4A6;
+    --JCA-primary-400: #E7494D;
+    --JCA-primary-500: #E43238;
+    --JCA-primary-600: #E11B21;
+
+    /* AL Colors */
+    --AL-primary-100: #F1EDF8;
+    --AL-primary-200: #E3DCF2;
+    --AL-primary-300: #C8B8E6;
+    --AL-primary-400: #9171CD;
+    --AL-primary-500: #8360C7;
+    --AL-primary-600: #754EC0;
+    --AL-secondary-100: #E5EFF6;
+    --AL-secondary-200: #CCDFEE;
+    --AL-secondary-300: #99BFDD;
+    --AL-secondary-400: #347FBB;
+    --AL-secondary-500: #1B70B3;
+    --AL-secondary-600: #015FAA;
+
+    /* GD Colors */
+    --GD-primary-100: #FCE6E7;
+    --GD-primary-200: #F9CDD0;
+    --GD-primary-300: #F39CA2;
+    --GD-primary-400: #E83945;
+    --GD-primary-500: #E5202E;
+    --GD-primary-600: #E20716;
+}
+
+/* Background Color Utilities */
+.bg-ot-primary-100 { background-color: var(--OT-primary-100); }
+.bg-ot-primary-200 { background-color: var(--OT-primary-200); }
+.bg-ot-primary-300 { background-color: var(--OT-primary-300); }
+.bg-ot-primary-400 { background-color: var(--OT-primary-400); }
+.bg-ot-primary-500 { background-color: var(--OT-primary-500); }
+.bg-ot-primary-600 { background-color: var(--OT-primary-600); }
+
+.bg-ot-neutral-100 { background-color: var(--OT-neutral-100); }
+.bg-ot-neutral-200 { background-color: var(--OT-neutral-200); }
+.bg-ot-neutral-300 { background-color: var(--OT-neutral-300); }
+.bg-ot-neutral-400 { background-color: var(--OT-neutral-400); }
+.bg-ot-neutral-500 { background-color: var(--OT-neutral-500); }
+.bg-ot-neutral-600 { background-color: var(--OT-neutral-600); }
+.bg-ot-neutral-700 { background-color: var(--OT-neutral-700); }
+.bg-ot-neutral-800 { background-color: var(--OT-neutral-800); }
+.bg-ot-neutral-900 { background-color: var(--OT-neutral-900); }
+
+.bg-ziggo-dome-primary-100 { background-color: var(--ZD-primary-100); }
+.bg-ziggo-dome-primary-200 { background-color: var(--ZD-primary-200); }
+.bg-ziggo-dome-primary-300 { background-color: var(--ZD-primary-300); }
+.bg-ziggo-dome-primary-400 { background-color: var(--ZD-primary-400); }
+.bg-ziggo-dome-primary-500 { background-color: var(--ZD-primary-500); }
+.bg-ziggo-dome-primary-600 { background-color: var(--ZD-primary-600); }
+
+.bg-johan-cruijff-arena-primary-100 { background-color: var(--JCA-primary-100); }
+.bg-johan-cruijff-arena-primary-200 { background-color: var(--JCA-primary-200); }
+.bg-johan-cruijff-arena-primary-300 { background-color: var(--JCA-primary-300); }
+.bg-johan-cruijff-arena-primary-400 { background-color: var(--JCA-primary-400); }
+.bg-johan-cruijff-arena-primary-500 { background-color: var(--JCA-primary-500); }
+.bg-johan-cruijff-arena-primary-600 { background-color: var(--JCA-primary-600); }
+
+.bg-afas-live-primary-100 { background-color: var(--AL-primary-100); }
+.bg-afas-live-primary-200 { background-color: var(--AL-primary-200); }
+.bg-afas-live-primary-300 { background-color: var(--AL-primary-300); }
+.bg-afas-live-primary-400 { background-color: var(--AL-primary-400); }
+.bg-afas-live-primary-500 { background-color: var(--AL-primary-500); }
+.bg-afas-live-primary-600 { background-color: var(--AL-primary-600); }
+.bg-afas-live-secondary-100 { background-color: var(--AL-secondary-100); }
+.bg-afas-live-secondary-200 { background-color: var(--AL-secondary-200); }
+.bg-afas-live-secondary-300 { background-color: var(--AL-secondary-300); }
+.bg-afas-live-secondary-400 { background-color: var(--AL-secondary-400); }
+.bg-afas-live-secondary-500 { background-color: var(--AL-secondary-500); }
+.bg-afas-live-secondary-600 { background-color: var(--AL-secondary-600); }
+
+.bg-GelreDome-primary-100 { background-color: var(--GD-primary-100); }
+.bg-GelreDome-primary-200 { background-color: var(--GD-primary-200); }
+.bg-GelreDome-primary-300 { background-color: var(--GD-primary-300); }
+.bg-GelreDome-primary-400 { background-color: var(--GD-primary-400); }
+.bg-GelreDome-primary-500 { background-color: var(--GD-primary-500); }
+.bg-GelreDome-primary-600 { background-color: var(--GD-primary-600); }
+
+/* Text Color Utilities */
+.text-ot-primary-100 { color: var(--OT-primary-100); }
+.text-ot-primary-200 { color: var(--OT-primary-200); }
+.text-ot-primary-300 { color: var(--OT-primary-300); }
+.text-ot-primary-400 { color: var(--OT-primary-400); }
+.text-ot-primary-500 { color: var(--OT-primary-500); }
+.text-ot-primary-600 { color: var(--OT-primary-600); }
+
+.text-ot-neutral-100 { color: var(--OT-neutral-100); }
+.text-ot-neutral-200 { color: var(--OT-neutral-200); }
+.text-ot-neutral-300 { color: var(--OT-neutral-300); }
+.text-ot-neutral-400 { color: var(--OT-neutral-400); }
+.text-ot-neutral-500 { color: var(--OT-neutral-500); }
+.text-ot-neutral-600 { color: var(--OT-neutral-600); }
+.text-ot-neutral-700 { color: var(--OT-neutral-700); }
+.text-ot-neutral-800 { color: var(--OT-neutral-800); }
+.text-ot-neutral-900 { color: var(--OT-neutral-900); }
+
+.text-ziggo-dome-primary-100 { color: var(--ZD-primary-100); }
+.text-ziggo-dome-primary-200 { color: var(--ZD-primary-200); }
+.text-ziggo-dome-primary-300 { color: var(--ZD-primary-300); }
+.text-ziggo-dome-primary-400 { color: var(--ZD-primary-400); }
+.text-ziggo-dome-primary-500 { color: var(--ZD-primary-500); }
+.text-ziggo-dome-primary-600 { color: var(--ZD-primary-600); }
+
+.text-johan-cruijff-arena-primary-100 { color: var(--JCA-primary-100); }
+.text-johan-cruijff-arena-primary-200 { color: var(--JCA-primary-200); }
+.text-johan-cruijff-arena-primary-300 { color: var(--JCA-primary-300); }
+.text-johan-cruijff-arena-primary-400 { color: var(--JCA-primary-400); }
+.text-johan-cruijff-arena-primary-500 { color: var(--JCA-primary-500); }
+.text-johan-cruijff-arena-primary-600 { color: var(--JCA-primary-600); }
+
+.text-afas-live-primary-100 { color: var(--AL-primary-100); }
+.text-afas-live-primary-200 { color: var(--AL-primary-200); }
+.text-afas-live-primary-300 { color: var(--AL-primary-300); }
+.text-afas-live-primary-400 { color: var(--AL-primary-400); }
+.text-afas-live-primary-500 { color: var(--AL-primary-500); }
+.text-afas-live-primary-600 { color: var(--AL-primary-600); }
+.text-afas-live-secondary-100 { color: var(--AL-secondary-100); }
+.text-afas-live-secondary-200 { color: var(--AL-secondary-200); }
+.text-afas-live-secondary-300 { color: var(--AL-secondary-300); }
+.text-afas-live-secondary-400 { color: var(--AL-secondary-400); }
+.text-afas-live-secondary-500 { color: var(--AL-secondary-500); }
+.text-afas-live-secondary-600 { color: var(--AL-secondary-600); }
+
+.text-GelreDome-primary-100 { color: var(--GD-primary-100); }
+.text-GelreDome-primary-200 { color: var(--GD-primary-200); }
+.text-GelreDome-primary-300 { color: var(--GD-primary-300); }
+.text-GelreDome-primary-400 { color: var(--GD-primary-400); }
+.text-GelreDome-primary-500 { color: var(--GD-primary-500); }
+.text-GelreDome-primary-600 { color: var(--GD-primary-600); }
+
+/* Border Color Utilities */
+.border-ot-primary-100 { border-color: var(--OT-primary-100) !important; }
+.border-ot-primary-200 { border-color: var(--OT-primary-200) !important; }
+.border-ot-primary-300 { border-color: var(--OT-primary-300) !important; }
+.border-ot-primary-400 { border-color: var(--OT-primary-400) !important; }
+.border-ot-primary-500 { border-color: var(--OT-primary-500) !important; }
+.border-ot-primary-600 { border-color: var(--OT-primary-600) !important; }
+
+.border-ot-neutral-100 { border-color: var(--OT-neutral-100) !important; }
+.border-ot-neutral-200 { border-color: var(--OT-neutral-200) !important; }
+.border-ot-neutral-300 { border-color: var(--OT-neutral-300) !important; }
+.border-ot-neutral-400 { border-color: var(--OT-neutral-400) !important; }
+.border-ot-neutral-500 { border-color: var(--OT-neutral-500) !important; }
+.border-ot-neutral-600 { border-color: var(--OT-neutral-600) !important; }
+.border-ot-neutral-700 { border-color: var(--OT-neutral-700) !important; }
+.border-ot-neutral-800 { border-color: var(--OT-neutral-800) !important; }
+.border-ot-neutral-900 { border-color: var(--OT-neutral-900) !important; }
+
+.border-ziggo-dome-primary-100 { border-color: var(--ZD-primary-100) !important; }
+.border-ziggo-dome-primary-200 { border-color: var(--ZD-primary-200) !important; }
+.border-ziggo-dome-primary-300 { border-color: var(--ZD-primary-300) !important; }
+.border-ziggo-dome-primary-400 { border-color: var(--ZD-primary-400) !important; }
+.border-ziggo-dome-primary-500 { border-color: var(--ZD-primary-500) !important; }
+.border-ziggo-dome-primary-600 { border-color: var(--ZD-primary-600) !important; }
+
+.border-johan-cruijff-arena-primary-100 { border-color: var(--JCA-primary-100) !important; }
+.border-johan-cruijff-arena-primary-200 { border-color: var(--JCA-primary-200) !important; }
+.border-johan-cruijff-arena-primary-300 { border-color: var(--JCA-primary-300) !important; }
+.border-johan-cruijff-arena-primary-400 { border-color: var(--JCA-primary-400) !important; }
+.border-johan-cruijff-arena-primary-500 { border-color: var(--JCA-primary-500) !important; }
+.border-johan-cruijff-arena-primary-600 { border-color: var(--JCA-primary-600) !important; }
+
+.border-afas-live-primary-100 { border-color: var(--AL-primary-100) !important; }
+.border-afas-live-primary-200 { border-color: var(--AL-primary-200) !important; }
+.border-afas-live-primary-300 { border-color: var(--AL-primary-300) !important; }
+.border-afas-live-primary-400 { border-color: var(--AL-primary-400) !important; }
+.border-afas-live-primary-500 { border-color: var(--AL-primary-500) !important; }
+.border-afas-live-primary-600 { border-color: var(--AL-primary-600) !important; }
+.border-afas-live-secondary-100 { border-color: var(--AL-secondary-100) !important; }
+.border-afas-live-secondary-200 { border-color: var(--AL-secondary-200) !important; }
+.border-afas-live-secondary-300 { border-color: var(--AL-secondary-300) !important; }
+.border-afas-live-secondary-400 { border-color: var(--AL-secondary-400) !important; }
+.border-afas-live-secondary-500 { border-color: var(--AL-secondary-500) !important; }
+.border-afas-live-secondary-600 { border-color: var(--AL-secondary-600) !important; }
+
+.border-GelreDome-primary-100 { border-color: var(--GD-primary-100) !important; }
+.border-GelreDome-primary-200 { border-color: var(--GD-primary-200) !important; }
+.border-GelreDome-primary-300 { border-color: var(--GD-primary-300) !important; }
+.border-GelreDome-primary-400 { border-color: var(--GD-primary-400) !important; }
+.border-GelreDome-primary-500 { border-color: var(--GD-primary-500) !important; }
+.border-GelreDome-primary-600 { border-color: var(--GD-primary-600) !important; }
+
+
+.ot-headline-stroke-ziggo-dome {
+    -webkit-text-stroke-width: 0.03em;
+    -webkit-text-stroke-color: var(--ZD-primary-600); /* Use ZD primary color */
+    color: transparent;
+}
+
+.ot-headline-stroke-johan-cruijff-arena {
+    -webkit-text-stroke-width: 0.03em;
+    -webkit-text-stroke-color: var(--JCA-primary-600); /* Use JCA primary color */
+    color: transparent;
+}
+
+.ot-headline-stroke-afas-live {
+    -webkit-text-stroke-width: 0.03em;
+    -webkit-text-stroke-color: var(--AL-primary-600); /* Use AL primary color */
+    color: transparent;
+}
+
+.ot-headline-stroke-GelreDome {
+    -webkit-text-stroke-width: 0.03em;
+    -webkit-text-stroke-color: var(--GD-primary-600); /* Use GD primary color */
+    color: transparent;
+}
